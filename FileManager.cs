@@ -3,9 +3,8 @@
 public class FileManager{
 
     public void Create(string fileName){
-           fileName = Path.GetFileName();
+           fileName = Path.GetfileName();
            string content = "hello file";
            File.WriteAllText(fileName, content);
-        
     }
 }
