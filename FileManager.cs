@@ -4,7 +4,7 @@ public class FileManager
 {
     public void Create(string fileName)
     {
-        string content = "hello file";
-        File.WriteAllText(fileName, content);
+        var name = Path.GetFileName(fileName);
+        File.WriteAllText(name, "hello file");
     }
 }
