@@ -4,6 +4,6 @@ public class FileManager
 {
     public void Create(string fileName)
     {
-        File.WriteAllText(fileName, "hello file");
+        File.WriteAllText(fileName, "file hello");
     }
 }
